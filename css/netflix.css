@@ -1,0 +1,80 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #F3F3F3;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    padding-top: 20px;  
+}
+
+header {
+    padding: 20px 20px 0 20px;
+    position: fixed;
+    top: 0;
+    display: grid;  
+    grid-gap:5px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: "nt mn mn sb . . . "; 
+    background-color: #141414;
+    width: 100%;
+    margin-bottom: 0px;  
+}
+
+.netflixLogo {
+    padding-left: 30px;
+}
+
+.main-nav a {
+    color: #F3F3F3;
+    text-decoration: none;
+    margin: 5px;  
+}
+
+.sub-nav a {
+    color: #F3F3F3;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.main-container {
+    padding: 50px;
+}
+
+.box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+}
+
+.box img {
+    border-radius: 2px;
+}
+
+.sub-links ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+    color: #686868;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #686868;
+    margin: 10px;
+}
