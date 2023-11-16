@@ -33,19 +33,13 @@ header {
     padding-left: 30px;
 }
 
-.main-nav a {
+header a {
     color: #F3F3F3;
     text-decoration: none;
     margin: 5px;  
 }
 
-.sub-nav a {
-    color: #F3F3F3;
-    text-decoration: none;
-    margin: 5px;
-}
-
-.main-container {
+.body {
     padding: 50px;
 }
 
@@ -59,15 +53,13 @@ header {
     border-radius: 2px;
 }
 
-.sub-links ul {
+.links ul {
     list-style: none;
     padding: 0;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-}
-
-.sub-links a {
+    margin-left: 50px;
     color: #686868;
     text-decoration: none;
 }
